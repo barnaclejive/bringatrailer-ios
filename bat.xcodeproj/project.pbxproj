@@ -3,25 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02052DDB48A6128AF6C11FAD /* Pods_bat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77581C95AF1AE0AAE1B28B60 /* Pods_bat.framework */; };
 		E294C8F122ECE3C9000F4803 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294C8F022ECE3C9000F4803 /* AppDelegate.swift */; };
 		E294C8F322ECE3C9000F4803 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294C8F222ECE3C9000F4803 /* ViewController.swift */; };
 		E294C8F622ECE3C9000F4803 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E294C8F422ECE3C9000F4803 /* Main.storyboard */; };
 		E294C8F822ECE3CA000F4803 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E294C8F722ECE3CA000F4803 /* Assets.xcassets */; };
-		E294C8FB22ECE3CA000F4803 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E294C8F922ECE3CA000F4803 /* LaunchScreen.storyboard */; };
+		E294C90322ECF7EB000F4803 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294C90222ECF7EB000F4803 /* Car.swift */; };
+		E294C90522ECFED6000F4803 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294C90422ECFED6000F4803 /* Parser.swift */; };
+		E294C90722ED0321000F4803 /* CarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E294C90622ED0321000F4803 /* CarCell.xib */; };
+		E294C90922ED047E000F4803 /* CarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294C90822ED047E000F4803 /* CarCell.swift */; };
+		E294C90B22ED07E6000F4803 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E294C90A22ED07E6000F4803 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5D5C2C215E95F170E53E0379 /* Pods-bat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bat/Pods-bat.debug.xcconfig"; sourceTree = "<group>"; };
+		77581C95AF1AE0AAE1B28B60 /* Pods_bat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E294C8ED22ECE3C9000F4803 /* bat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E294C8F022ECE3C9000F4803 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E294C8F222ECE3C9000F4803 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E294C8F522ECE3C9000F4803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E294C8F722ECE3CA000F4803 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E294C8FA22ECE3CA000F4803 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E294C8FC22ECE3CA000F4803 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E294C90222ECF7EB000F4803 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		E294C90422ECFED6000F4803 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		E294C90622ED0321000F4803 /* CarCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarCell.xib; sourceTree = "<group>"; };
+		E294C90822ED047E000F4803 /* CarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarCell.swift; sourceTree = "<group>"; };
+		E294C90A22ED07E6000F4803 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		E5942DC24C49DD396D427593 /* Pods-bat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bat.release.xcconfig"; path = "Pods/Target Support Files/Pods-bat/Pods-bat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02052DDB48A6128AF6C11FAD /* Pods_bat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C022E76972B7B0A866BBABB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D5C2C215E95F170E53E0379 /* Pods-bat.debug.xcconfig */,
+				E5942DC24C49DD396D427593 /* Pods-bat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6B8FFFC9B4DAE9839E13B6D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77581C95AF1AE0AAE1B28B60 /* Pods_bat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E294C8E422ECE3C9000F4803 = {
 			isa = PBXGroup;
 			children = (
 				E294C8EF22ECE3C9000F4803 /* bat */,
 				E294C8EE22ECE3C9000F4803 /* Products */,
+				4C022E76972B7B0A866BBABB /* Pods */,
+				6B8FFFC9B4DAE9839E13B6D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,8 +90,12 @@
 				E294C8F222ECE3C9000F4803 /* ViewController.swift */,
 				E294C8F422ECE3C9000F4803 /* Main.storyboard */,
 				E294C8F722ECE3CA000F4803 /* Assets.xcassets */,
-				E294C8F922ECE3CA000F4803 /* LaunchScreen.storyboard */,
 				E294C8FC22ECE3CA000F4803 /* Info.plist */,
+				E294C90422ECFED6000F4803 /* Parser.swift */,
+				E294C90222ECF7EB000F4803 /* Car.swift */,
+				E294C90622ED0321000F4803 /* CarCell.xib */,
+				E294C90822ED047E000F4803 /* CarCell.swift */,
+				E294C90A22ED07E6000F4803 /* Utils.swift */,
 			);
 			path = bat;
 			sourceTree = "<group>";
@@ -71,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E294C8FF22ECE3CA000F4803 /* Build configuration list for PBXNativeTarget "bat" */;
 			buildPhases = (
+				55E203B3BF34E6ABA6EAAFC3 /* [CP] Check Pods Manifest.lock */,
 				E294C8E922ECE3C9000F4803 /* Sources */,
 				E294C8EA22ECE3C9000F4803 /* Frameworks */,
 				E294C8EB22ECE3C9000F4803 /* Resources */,
+				527B83161F7480BDA3312D76 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,21 +160,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E294C8FB22ECE3CA000F4803 /* LaunchScreen.storyboard in Resources */,
 				E294C8F822ECE3CA000F4803 /* Assets.xcassets in Resources */,
+				E294C90722ED0321000F4803 /* CarCell.xib in Resources */,
 				E294C8F622ECE3C9000F4803 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		527B83161F7480BDA3312D76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bat/Pods-bat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-bat/Pods-bat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-bat/Pods-bat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55E203B3BF34E6ABA6EAAFC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-bat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E294C8E922ECE3C9000F4803 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E294C90522ECFED6000F4803 /* Parser.swift in Sources */,
 				E294C8F322ECE3C9000F4803 /* ViewController.swift in Sources */,
 				E294C8F122ECE3C9000F4803 /* AppDelegate.swift in Sources */,
+				E294C90922ED047E000F4803 /* CarCell.swift in Sources */,
+				E294C90322ECF7EB000F4803 /* Car.swift in Sources */,
+				E294C90B22ED07E6000F4803 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,14 +229,6 @@
 				E294C8F522ECE3C9000F4803 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E294C8F922ECE3CA000F4803 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E294C8FA22ECE3CA000F4803 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -213,7 +285,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +340,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -280,9 +352,11 @@
 		};
 		E294C90022ECE3CA000F4803 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D5C2C215E95F170E53E0379 /* Pods-bat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JN7MAJGLHD;
 				INFOPLIST_FILE = bat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +371,11 @@
 		};
 		E294C90122ECE3CA000F4803 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5942DC24C49DD396D427593 /* Pods-bat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JN7MAJGLHD;
 				INFOPLIST_FILE = bat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
